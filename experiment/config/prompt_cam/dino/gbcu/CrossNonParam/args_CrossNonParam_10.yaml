@@ -1,0 +1,32 @@
+batch_size: 128
+crop_size: 224
+data: gbcu                                             #Change this for new dataset
+data_path: /home/paul/Paul/DATASETS/GBCU              #Change this for new dataset
+debug: true
+drop_path_rate: 0.1
+early_patience: 101
+epoch: 50                                             #Tune this for new dataset
+eval_freq: 10
+final_acc_hp: true
+final_run: true
+full: false
+gpu_num: 1
+lr: 0.03                                             #Tune this for new dataset
+lr_min: 1.0e-06
+model: dino
+momentum: 0.9
+normalized: true
+optimizer: sgd
+pretrained_weights: vit_base_patch16_dino
+random_seed: 42
+store_ckp: true
+test_batch_size: 128
+train_type: prompt_cam
+vpt_dropout: 0.1
+vpt_layer: null
+vpt_mode: null
+vpt_num: 3                                            #Change this for new dataset
+warmup_epoch: 5 #20
+warmup_lr_init: 0
+wd: 0.001
+adapter: Adapter_CrossNonParam 
