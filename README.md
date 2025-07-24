@@ -1,4 +1,4 @@
-# UniPrompt-CAM
+# INTR-UP
 
 ## Clone the repository
 ```sh
@@ -13,6 +13,11 @@ conda create -n uni_prompt python=3.7
 conda activate uni_prompt
 source env_setup.sh
 ```
+
+
+[Download CUB INTR-UP Checkpoint](https://o365tsukuba-my.sharepoint.com/:f:/g/personal/paul_dipanjyoti_ga_u_tsukuba_ac_jp/EoXoYxpzh9BEklkvbq0XbNYB67QBhn7dKzVIR9fpUxVuwA?e=PyJqWr) 
+[Download GBCU INTR-UP Checkpoint](https://o365tsukuba-my.sharepoint.com/:f:/g/personal/paul_dipanjyoti_ga_u_tsukuba_ac_jp/EvXDYv1cNKtArJYknsmMk9UBO1yCEpwJEpJpwSIc2ALoTA?e=5rUlRm) 
+
 
 ## Data Preparation
 Follow the below format for data.
